@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+}
+
+.box{
+    border: 2px solid black;
+    height: 350px;
+}
+
+#box1{
+    background-color: peachpuff;
+}
+#box2{
+    background-image: url(https://th.bing.com/th/id/R.3175dc540dfe6b9e4ac00517086e4700?rik=N5QK4nhTaaewfA&riu=http%3a%2f%2fwww.forestwander.com%2fwp-content%2foriginal%2f2011_02%2fbeautiful-pink-flower.jpg&ehk=odzj%2bukR0ES%2bVffERmcJ08qxlxnGZlOdQfyrBzhZj3A%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
+
+#box3{
+    background-image: url(https://th.bing.com/th/id/R.10c04fdb2ec392a0f16cd3c2ccc60220?rik=LqtuenLCMaYPhQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#box4{
+    background-image: linear-gradient(Rosybrown,plum,magenta);
+}
+
+#box4:hover{
+    background-image: linear-gradient(tomato,coral,peachpuff);
+}
+
+#box5{
+    background-image: radial-gradient(white,olive,yellow,pink);
+}
+#box5:hover{
+    background-image : radial-gradient(white,tomato,coral,pink)
+}
+#box6{
+    background-image: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+}
