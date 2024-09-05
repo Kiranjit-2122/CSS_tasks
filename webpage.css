@@ -1,0 +1,63 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing:border-box;
+}
+#header{
+    height: 70px;
+    background-color: grey;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.logo{
+    width: 40%;
+    float: left;
+    color: white;
+    font-size: 35px;
+}
+.navbar{
+    width: 50%;
+    float: left;
+}
+.navbar ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.banner{
+    background-image:url(furniture.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align:center;
+    color: aliceblue;
+}
+.banner h1{
+    font-size: 35px;
+    margin-top: 0px;
+}
+.banner p{
+    font-size: 18px;
+    margin-top:20px ;
+}
+.banner button {
+    display:inline block;
+    padding:10px 20px;
+    background-color:blue;
+    color:white;
+    border-radius: 15px;
+}
+.banner button1 {
+    display:inline block;
+    padding:10px 20px;
+    border: 2px solid whitesmoke;
+    color:white;
+    border-radius: 15px;
+}
