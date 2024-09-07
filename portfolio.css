@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+#header{
+    padding: 20px 0;
+    height: 70px;
+    background-color: black;
+}
+
+.logo{
+    width:50%;
+    float: left;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navbar{
+    width:50%;
+    float: left;
+}
+
+.navbar ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.shadow{
+    box-shadow: 3px 3px 10px black ;
+}
+
+#content{
+    background-color: whitesmoke;
+    padding: 20px 0;
+    height: 600px;
+}
+
+.profile{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.about{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.about p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.info{
+    margin-top: 30px;
+}
+
+.picture{
+    width: 50%;
+    float: left;
+    height:150px;
+    text-align: center;
+}
+
+.picture img{
+    height: 150px;
+}
+
+.detail{
+    width: 50%;
+    float: left;
+    font-size: larger;
+    height: 150px;
+}
+
+.skill{
+    padding: 30px;
+}
+
+.parent{
+    /* height:30px; */
+}
+
+.dark{
+    height: 15px;
+    float: left;
+    background-color: rgb(15, 80, 146);
+}
+.light{
+    height: 15px;
+    float: left;
+    background-color: rgb(132, 170, 203);
+}
+
+
+
+
+
+
